@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to right, #f2dede, #e6bfc0);
+  color: #600;
+}
+
+/* ENCABEZADO */
+.encabezado {
+  background: linear-gradient(to right, #990000, #cc0000);
+  color: white;
+  text-align: center;
+  padding: 30px 20px 10px;
+  border-bottom: 5px solid #700;
+}
+
+.contenedor-encabezado h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px #00000050;
+}
+
+.subtitulo {
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+/* RUTA DE NAVEGACIÓN */
+.ruta-navegacion {
+  background-color: #f8dcdc;
+  padding: 10px 0;
+  box-shadow: inset 0 -3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.ruta-navegacion ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.ruta-navegacion li a {
+  background: url('hueso.png') no-repeat center;
+  background-size: contain;
+  display: block;
+  width: 140px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  text-decoration: none;
+  color: #700;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* CONTENIDO PRINCIPAL */
+.contenido-principal {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.izquierda img {
+  max-width: 350px;
+  border-radius: 20px;
+  border: 5px solid #222;
+}
+
+.derecha {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.caja, .caja-lista {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border: 2px solid #900;
+  border-radius: 15px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+}
+
+.caja p {
+  font-size: 22px;
+  text-align: center;
+  color: #900;
+}
+
+.caja-lista ul {
+  list-style: none;
+  padding-left: 20px;
+}
+
+.caja-lista li {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #900;
+}
